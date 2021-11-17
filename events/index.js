@@ -28,6 +28,7 @@ class Events {
 
   // Remove all event handlers associated
   // with the given eventName
+
   off(eventName) {
     delete this.events[eventName];
   }
